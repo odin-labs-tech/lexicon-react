@@ -1,5 +1,11 @@
 # @lexiconjs/react
 
+## 2.3.0
+
+### Minor Changes
+
+- ac5e7dd: Added hashing library to make cache key consistent with backend
+
 ## 2.2.2
 
 ### Patch Changes
