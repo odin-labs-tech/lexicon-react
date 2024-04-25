@@ -35,5 +35,5 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["Pressable"]
+  "cSpell.words": ["ohash", "Pressable"]
 }
