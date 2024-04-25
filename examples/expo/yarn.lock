@@ -2521,15 +2521,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lexiconjs/react@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@lexiconjs/react@npm:2.2.0"
+"@lexiconjs/react@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@lexiconjs/react@npm:2.3.0"
+  dependencies:
+    ohash: ^1.1.3
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-native: "*"
     react-native-mmkv: ^2.8.0
-  checksum: 795c8bda10f44a111bb1a4ecf1b5bf4c50fa61b796b73b0f7344b751cc809703f26be0797fed5d9afd2c1b364874debc22bcb5fab2d32949117eacf3abacf711
+  checksum: 04316d8b8cd7601f43f7eb6a0d663fd186f5f06a56ea59f1c22994fa965ab6010ae4cbef58acd3d63fa0aaab75681fa8980386e4ab8ec9bedac26440c7c50517
   languageName: node
   linkType: hard
 
@@ -7831,7 +7833,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.20.0
     "@expo/vector-icons": ^13.0.0
-    "@lexiconjs/react": 2.2.0
+    "@lexiconjs/react": 2.3.0
     "@react-navigation/native": ^6.0.2
     "@types/react": ~18.2.45
     expo: ~50.0.0-preview.4
@@ -8928,6 +8930,13 @@ __metadata:
   version: 1.13.1
   resolution: "object-inspect@npm:1.13.1"
   checksum: 7d9fa9221de3311dcb5c7c307ee5dc011cdd31dc43624b7c184b3840514e118e05ef0002be5388304c416c0eb592feb46e983db12577fc47e47d5752fbbfb61f
+  languageName: node
+  linkType: hard
+
+"ohash@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "ohash@npm:1.1.3"
+  checksum: 44c7321cb950ce6e87d46584fd5cc8dd3dd15fcd4ade0ac2995d0497dc6b6b1ae9bd844c59af185d63923da5cfe9b37ae37a9dbd9ac455f3ad0cdfb5a73d5ef6
   languageName: node
   linkType: hard
 
