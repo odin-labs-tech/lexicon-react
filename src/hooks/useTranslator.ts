@@ -1,7 +1,8 @@
 import { useContext, useCallback } from 'react';
 
+import { useCache } from './useCache';
 import { TranslationContext } from '../contexts';
-import { lexicon, cache } from '../core';
+import { lexicon } from '../core';
 import type { Language } from '../types';
 
 /** The options available to pass to our translation methods / component */
@@ -25,6 +26,8 @@ export const useTranslator = () => {
     translationGuidance,
     deviceId,
   } = useContext(TranslationContext);
+  // Get the cache utility methods
+  const cache = useCache();
 
   /** The translation logic specific to this framework */
   const translate = useCallback(
