@@ -1,5 +1,35 @@
 # @lexiconjs/react
 
+## 2.3.0
+
+### Minor Changes
+
+- ac5e7dd: Added hashing library to make cache key consistent with backend
+
+## 2.2.2
+
+### Patch Changes
+
+- 7e77a7e: Handled special locale strings like @calendar=gregorian
+
+## 2.2.1
+
+### Patch Changes
+
+- 488292f: Added some additional error handling
+
+## 2.2.0
+
+### Minor Changes
+
+- 8eafa69: Made react-native-mmkv a peer dependency since expo won't link it automatically
+
+## 2.1.0
+
+### Minor Changes
+
+- 045199a: Added device configuration settings
+
 ## 2.0.0
 
 ### Major Changes
