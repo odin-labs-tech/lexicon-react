@@ -1,5 +1,11 @@
 # @lexiconjs/react
 
+## 3.0.0
+
+### Major Changes
+
+- bca2621: Added the ability to load translation files to improve performance and reduce queries
+
 ## 2.3.0
 
 ### Minor Changes
