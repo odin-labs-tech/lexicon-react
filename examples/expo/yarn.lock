@@ -2521,9 +2521,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lexiconjs/react@npm:2.3.0":
-  version: 2.3.0
-  resolution: "@lexiconjs/react@npm:2.3.0"
+"@lexiconjs/react@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@lexiconjs/react@npm:3.0.0"
   dependencies:
     ohash: ^1.1.3
   peerDependencies:
@@ -2531,7 +2531,7 @@ __metadata:
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-native: "*"
     react-native-mmkv: ^2.8.0
-  checksum: 04316d8b8cd7601f43f7eb6a0d663fd186f5f06a56ea59f1c22994fa965ab6010ae4cbef58acd3d63fa0aaab75681fa8980386e4ab8ec9bedac26440c7c50517
+  checksum: abde9ba711efe46d482f30c85b273deb3cf6aae46927625b45942dffe95f34946727e238b9ae5e5b4b9ff6406832fa0fdbb3f0797e2dd4028e75ec91b4fca87b
   languageName: node
   linkType: hard
 
@@ -7833,7 +7833,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.20.0
     "@expo/vector-icons": ^13.0.0
-    "@lexiconjs/react": 2.3.0
+    "@lexiconjs/react": 3.0.0
     "@react-navigation/native": ^6.0.2
     "@types/react": ~18.2.45
     expo: ~50.0.0-preview.4

@@ -5,6 +5,8 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 
+// import translations from '../translations.json';
+
 export {
   // Catch any errors thrown by the Layout component.
   ErrorBoundary,
@@ -45,10 +47,14 @@ function RootLayoutNav() {
     <TranslationProvider
       defaultLanguage="en-US"
       token={process.env.EXPO_PUBLIC_LEXICON_PUBLISHABLE_KEY as string}
-      // You shouldn't need this props in production (we automatically determine targetLanguage based on device settings)
-      targetLanguage="es-ES"
+      // You shouldn't need this props in production, but it's useful for testing and generating your first language file
+      // (we automatically determine targetLanguage based on device settings)
+      targetLanguage="es"
       // You can also leave out the debug prop in production
-      debug>
+      debug
+      // You can provide a translation file from your dashboard to reduce backend queries
+      // translations={translations}
+    >
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       </Stack>
